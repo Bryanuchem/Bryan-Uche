@@ -2,6 +2,7 @@ body{
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #405;
 }
 
 h1{
@@ -23,21 +24,22 @@ h3{
     color:  #11999E;
 }
 
-.cc{
-    color: #EAF6F6;
-}
-
-.footer-link{
-    padding-left: 50px;
-    padding-right:50px;
-    text-decoration: none;
-}
-
 hr{
     border-color:grey ;
     border-style: dotted none none;
     border-width: 5px;
     width: 7%;
+}
+
+.footer-link{
+    padding-left: 50px;
+    padding-right:50px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
 }
 
 .bottom-container{
@@ -47,8 +49,9 @@ hr{
 }
 
 .cc{
-    font-size: small;
+    font-size: 0.75rem;
     margin-top: 55px;
+    color: #EAF6F6;
 }
 
 .skill-web{
@@ -79,6 +82,7 @@ hr{
 .footer-link{
     color: #11999E;
 }
+
 
 .top-container{
     background-color: #EAF6F6;
